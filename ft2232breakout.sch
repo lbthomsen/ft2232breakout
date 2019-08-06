@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ft2232breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,6 +22,8 @@ F 0 "U1" H 5700 6781 50  0000 C CNN
 F 1 "FT2232H" H 5700 6690 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5700 4400 50  0001 C CNN
 F 3 "http://www.ftdichip.com/Products/ICs/FT2232H.html" H 5700 4400 50  0001 C CNN
+F 4 "768-1024-2-ND" H 5700 4400 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.my/product-detail/en/ftdi-future-technology-devices-international-ltd/FT2232HL-REEL/768-1024-2-ND/1986053" H 5700 4400 50  0001 C CNN "Digikey URL"
 	1    5700 4400
 	1    0    0    -1  
 $EndComp
@@ -257,7 +259,7 @@ U 1 1 5CF2540E
 P 1900 1950
 F 0 "C2" H 2015 1996 50  0000 L CNN
 F 1 "0.1uF" H 2015 1905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1938 1800 50  0001 C CNN
 F 3 "~" H 1900 1950 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 1900 1950 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 1900 1950 50  0001 C CNN "Digikey Link"
@@ -270,7 +272,7 @@ U 1 1 5CF25C5E
 P 1050 1950
 F 0 "C1" H 1165 1996 50  0000 L CNN
 F 1 "0.1uF" H 1165 1905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1088 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 1800 50  0001 C CNN
 F 3 "~" H 1050 1950 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 1050 1950 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 1050 1950 50  0001 C CNN "Digikey Link"
@@ -327,7 +329,7 @@ U 1 1 5CF32147
 P 6500 1900
 F 0 "C9" H 6615 1946 50  0000 L CNN
 F 1 "0.1uF" H 6615 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6538 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 1750 50  0001 C CNN
 F 3 "~" H 6500 1900 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 6500 1900 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 6500 1900 50  0001 C CNN "Digikey Link"
@@ -351,7 +353,7 @@ U 1 1 5CF3351E
 P 6900 1900
 F 0 "C11" H 7015 1946 50  0000 L CNN
 F 1 "0.1uF" H 7015 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6938 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 1750 50  0001 C CNN
 F 3 "~" H 6900 1900 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 6900 1900 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 6900 1900 50  0001 C CNN "Digikey Link"
@@ -364,7 +366,7 @@ U 1 1 5CF33DC0
 P 7300 1900
 F 0 "C13" H 7415 1946 50  0000 L CNN
 F 1 "0.1uF" H 7415 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7338 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7338 1750 50  0001 C CNN
 F 3 "~" H 7300 1900 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 7300 1900 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 7300 1900 50  0001 C CNN "Digikey Link"
@@ -377,7 +379,7 @@ U 1 1 5CF34BB8
 P 7700 1900
 F 0 "C14" H 7815 1946 50  0000 L CNN
 F 1 "0.1uF" H 7815 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7738 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7738 1750 50  0001 C CNN
 F 3 "~" H 7700 1900 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 7700 1900 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 7700 1900 50  0001 C CNN "Digikey Link"
@@ -549,7 +551,7 @@ U 1 1 5CF29188
 P 4950 900
 F 0 "C3" V 5100 850 50  0000 L CNN
 F 1 "4.7uF" V 4800 800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4988 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 750 50  0001 C CNN
 F 3 "~" H 4950 900 50  0001 C CNN
 F 4 "1276-6684-1-ND" H 4950 900 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475MP5LNNC/1276-6684-1-ND/5961543" H 4950 900 50  0001 C CNN "Digikey Link"
@@ -562,7 +564,7 @@ U 1 1 5CF281A7
 P 4950 1300
 F 0 "C4" V 5100 1250 50  0000 L CNN
 F 1 "0.1uF" V 4800 1200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4988 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 1150 50  0001 C CNN
 F 3 "~" H 4950 1300 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 4950 1300 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4950 1300 50  0001 C CNN "Digikey Link"
@@ -575,7 +577,7 @@ U 1 1 5CF278AD
 P 4950 1700
 F 0 "C6" V 5100 1650 50  0000 L CNN
 F 1 "4.7uF" V 4800 1600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4988 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 1550 50  0001 C CNN
 F 3 "~" H 4950 1700 50  0001 C CNN
 F 4 "1276-6684-1-ND" H 4950 1700 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475MP5LNNC/1276-6684-1-ND/5961543" H 4950 1700 50  0001 C CNN "Digikey Link"
@@ -588,7 +590,7 @@ U 1 1 5CF263DE
 P 4950 2100
 F 0 "C7" V 5100 2050 50  0000 L CNN
 F 1 "0.1uF" V 4800 2000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4988 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 1950 50  0001 C CNN
 F 3 "~" H 4950 2100 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 4950 2100 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4950 2100 50  0001 C CNN "Digikey Link"
@@ -616,7 +618,7 @@ U 1 1 5CFC2524
 P 4050 2950
 F 0 "C5" H 4165 2996 50  0000 L CNN
 F 1 "4.7uF" H 4165 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4088 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 2800 50  0001 C CNN
 F 3 "~" H 4050 2950 50  0001 C CNN
 F 4 "1276-6684-1-ND" H 4050 2950 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475MP5LNNC/1276-6684-1-ND/5961543" H 4050 2950 50  0001 C CNN "Digikey Link"
@@ -660,7 +662,7 @@ U 1 1 5CFD4353
 P 6500 1050
 F 0 "C8" H 6615 1096 50  0000 L CNN
 F 1 "0.1uF" H 6615 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6538 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 900 50  0001 C CNN
 F 3 "~" H 6500 1050 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 6500 1050 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 6500 1050 50  0001 C CNN "Digikey Link"
@@ -673,7 +675,7 @@ U 1 1 5CFD4935
 P 6900 1050
 F 0 "C10" H 7015 1096 50  0000 L CNN
 F 1 "0.1uF" H 7015 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6938 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 900 50  0001 C CNN
 F 3 "~" H 6900 1050 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 6900 1050 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 6900 1050 50  0001 C CNN "Digikey Link"
@@ -686,7 +688,7 @@ U 1 1 5CFD51B2
 P 7300 1050
 F 0 "C12" H 7415 1096 50  0000 L CNN
 F 1 "0.1uF" H 7415 1005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7338 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7338 900 50  0001 C CNN
 F 3 "~" H 7300 1050 50  0001 C CNN
 F 4 "1276-1000-1-ND" H 7300 1050 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 7300 1050 50  0001 C CNN "Digikey Link"
@@ -823,7 +825,7 @@ U 1 1 5CF4BF61
 P 4150 6400
 F 0 "C16" H 4265 6446 50  0000 L CNN
 F 1 "27pF" H 4265 6355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 6250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 6250 50  0001 C CNN
 F 3 "~" H 4150 6400 50  0001 C CNN
 F 4 "1276-2247-1-ND" H 4150 6400 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10C270JB81PNC/1276-2247-1-ND/3890333" H 4150 6400 50  0001 C CNN "Digikey Link"
@@ -836,7 +838,7 @@ U 1 1 5CF4D5BB
 P 3650 6400
 F 0 "C15" H 3765 6446 50  0000 L CNN
 F 1 "27pF" H 3765 6355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3688 6250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 6250 50  0001 C CNN
 F 3 "~" H 3650 6400 50  0001 C CNN
 F 4 "1276-2247-1-ND" H 3650 6400 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10C270JB81PNC/1276-2247-1-ND/3890333" H 3650 6400 50  0001 C CNN "Digikey Link"
@@ -875,7 +877,7 @@ U 1 1 5CF9236E
 P 4250 3800
 F 0 "R1" V 4250 3800 50  0000 C CNN
 F 1 "12k" V 4134 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 3800 50  0001 C CNN
 F 3 "~" H 4250 3800 50  0001 C CNN
 	1    4250 3800
 	0    1    1    0   
@@ -886,7 +888,7 @@ U 1 1 5CF93404
 P 4250 4000
 F 0 "R2" V 4250 4000 50  0000 C CNN
 F 1 "1k" V 4134 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 4000 50  0001 C CNN
 F 3 "~" H 4250 4000 50  0001 C CNN
 	1    4250 4000
 	0    1    1    0   
@@ -964,7 +966,7 @@ U 1 1 5CFCEA11
 P 4300 4850
 F 0 "R6" V 4300 4850 50  0000 C CNN
 F 1 "10k" V 4184 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4230 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 4850 50  0001 C CNN
 F 3 "~" H 4300 4850 50  0001 C CNN
 	1    4300 4850
 	-1   0    0    1   
@@ -975,7 +977,7 @@ U 1 1 5CFCFEE4
 P 4100 4850
 F 0 "R5" V 4100 4850 50  0000 C CNN
 F 1 "10k" V 3984 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4030 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 4850 50  0001 C CNN
 F 3 "~" H 4100 4850 50  0001 C CNN
 	1    4100 4850
 	-1   0    0    1   
@@ -986,7 +988,7 @@ U 1 1 5CFD01AE
 P 3900 4850
 F 0 "R4" V 3900 4850 50  0000 C CNN
 F 1 "10k" V 3784 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 4850 50  0001 C CNN
 F 3 "~" H 3900 4850 50  0001 C CNN
 	1    3900 4850
 	-1   0    0    1   
@@ -1011,7 +1013,7 @@ U 1 1 5D00E8DC
 P 3350 5400
 F 0 "R3" V 3350 5400 50  0000 C CNN
 F 1 "2.2k" V 3234 5400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3280 5400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 5400 50  0001 C CNN
 F 3 "~" H 3350 5400 50  0001 C CNN
 	1    3350 5400
 	0    -1   -1   0   
@@ -1221,7 +1223,7 @@ U 1 1 5CF2E64A
 P 2300 1950
 F 0 "C17" H 2415 1996 50  0000 L CNN
 F 1 "4.7uF" H 2415 1905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2338 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2338 1800 50  0001 C CNN
 F 3 "~" H 2300 1950 50  0001 C CNN
 F 4 "1276-6684-1-ND" H 2300 1950 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475MP5LNNC/1276-6684-1-ND/5961543" H 2300 1950 50  0001 C CNN "Digikey Link"
