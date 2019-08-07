@@ -22,6 +22,8 @@ F 0 "U1" H 5700 6781 50  0000 C CNN
 F 1 "FT2232H" H 5700 6690 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5700 4400 50  0001 C CNN
 F 3 "http://www.ftdichip.com/Products/ICs/FT2232H.html" H 5700 4400 50  0001 C CNN
+F 4 "768-1024-2-ND" H 5700 4400 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.my/product-detail/en/ftdi-future-technology-devices-international-ltd/FT2232HL-REEL/768-1024-2-ND/1986053" H 5700 4400 50  0001 C CNN "Digikey URL"
 	1    5700 4400
 	1    0    0    -1  
 $EndComp
